@@ -13,7 +13,7 @@
     <div class="container">
         <h2>Currency Converter</h2>
         <div class="amount">
-            <p> Enter your amount</p>
+            <p> Enter amount</p>
             <input value = "1" type="text">
         </div>
         <div class="dropdown">
@@ -22,12 +22,7 @@
                 
                 <div class="select-container">
                     <img src = "https://flagsapi.com/US/flat/64.png" />
-                    <select name = "from">
-                        <option value="USD">USD</option>
-                        <option value="NPR">NPR</option>
-                        <option value="INR">INR</option>
-                        <option value="AUD">AUD</option>   
-                    </select>
+                    <select name = "from"></select>
                 </div>
 
            </div> 
@@ -37,22 +32,20 @@
             
                 <div class="select-container">
                     <img src = "https://flagsapi.com/NP/flat/64.png" />
-                    <select name = "from">
-                        <option value="USD">USD</option>
-                        <option value="NPR" selected>NPR</option>
-                        <option value="INR">INR</option>
-                        <option value="AUD">AUD</option>   
-                    </select>
+                    <select name = "to"></select>
            </div> 
         </div>
     </div>
-    <div class="msg">
-        1 USD = 135 NPR
+    <div class="msg hide">
+       
     </div>    
     <button>CONVERT</button>
     
 </form>
-    
+<script src="countryList.js"></script>
+<script src="app.js"></script>
+
+  
 </body>
-<script src = "app.js"></script>
+
 </html>

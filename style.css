@@ -108,3 +108,8 @@ form button {
     color : white;
     font-size: 1.15rem;
 }
+
+
+.hide {
+    display: none;
+}
